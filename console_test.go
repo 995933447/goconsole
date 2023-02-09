@@ -7,7 +7,7 @@ import (
 )
 
 func TestRun(t *testing.T)  {
-	Register("foo", "foo -bar $bar", func() {
+	Register("foo", "console -f foo -bar $bar", func() {
 		fmt.Println(scan.OptStr("bar"))
 	})
 	Run()
