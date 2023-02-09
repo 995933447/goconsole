@@ -8,7 +8,7 @@ Contains registering commands,routing commands,parsing parameters.
 代码示例:https://github.com/995933447/goconsole/blob/master/console_test.go
 ```
 执行:
-// Let us assume we build the project to executable file that named console
+// Let us assume we build the project to executable file which named console
 // 假设这里把命令行项目构建成可执行文件console
 go build -o console .
 // See how to use executable file
